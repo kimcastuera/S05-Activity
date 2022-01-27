@@ -1,0 +1,47 @@
+* {
+	font-family: tahoma, arial;
+	font-size: 20px;
+}
+
+#external-style {
+	color: #003D56;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+#caption {
+	text-transform: uppercase;
+}
+
+.languages {
+	background-color: #B3E9FF;
+}
+
+li[type] {
+	border-style: solid;
+	border-color: #B3E9FF;
+	border-width: 2px;
+}
+
+img + ol {
+	list-style-type: none;
+}
+
+main img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin-left: 30px;
+}
+
+img ~ #quote {
+	text-align: center;
+}
+
+#other-learnings > li {
+	letter-spacing: 10px;
+}
